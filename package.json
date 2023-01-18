@@ -1,0 +1,7 @@
+{
+  "name": "yt-no-link-track",
+  "version": "0.5.0",
+  "description": "Changes links in youtube description to stop redirecting from youtube's tracking servers.",
+  "author": "matsixfive",
+  "license": "ISC"
+}
