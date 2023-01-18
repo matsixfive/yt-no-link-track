@@ -22,12 +22,9 @@
 	let int = setInterval(() => {
 		console.log("checking for description");
 		const descText = document.getElementById("description-inline-expander");
-		// const desc = document.getElementById("description");
 		if (descText) {
 			clean();
-			// desc.addEventListener("click", clean)
 			console.log("clearing");
-			// clearInterval(int);
 		}
 	}, 100);
 })();
