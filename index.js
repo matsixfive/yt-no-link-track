@@ -18,13 +18,5 @@
 	};
 
 	document.addEventListener("yt-navigate-finish", clean);
-
-	let int = setInterval(() => {
-		console.log("checking for description");
-		const descText = document.getElementById("description-inline-expander");
-		if (descText) {
-			clean();
-			console.log("clearing");
-		}
-	}, 100);
+	document.addEventListener("click", clean);
 })();
